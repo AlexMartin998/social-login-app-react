@@ -1,7 +1,6 @@
 export const getEnvironments = () => {
-  import.meta.env;
-
   return {
-    ...import.meta.env,
+    // ...import.meta.env,
+    VITE_BACK_URL: import.meta.env.VITE_BACK_URL,
   };
 };
